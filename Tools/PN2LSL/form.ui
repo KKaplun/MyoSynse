@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>90</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string>000.000.000.000</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>130</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string>00000</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>170</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X position</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Y position</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>50</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Z position</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>90</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>90</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_5">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_6">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>190</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>90</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Hips</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightUpLeg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightLeg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightFoot</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftUpLeg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftLeg</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftFoot</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Spine</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Spine1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Spine2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Spine3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Neck</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Head</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightShoulder</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightArm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightForeArm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHand</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandThumb1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandThumb2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandThumb3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightInHandIndex</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandIndex1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandIndex2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandIndex3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightInHandMiddle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandMiddle1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandMiddle2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandMiddle3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightInHandRing</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandRing1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandRing2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandRing3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightInHandPinky</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandPinky1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandPinky2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RightHandPinky3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftShoulder</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftArm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftForeArm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHand</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandThumb1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandThumb2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandThumb3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftInHandIndex</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandIndex1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandIndex2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandIndex3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftInHandMiddle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandMiddle1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandMiddle2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandMiddle3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftInHandRing</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandRing1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandRing2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandRing3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftInHandPinky</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandPinky1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandPinky2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LeftHandPinky3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Y rotation</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X rotation</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>150</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Z rotation</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>90</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>130</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Port</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
